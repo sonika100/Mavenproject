@@ -11,6 +11,7 @@ public class LoginScript {
 		System.out.println(driverpath);
 		System.setProperty("webdriver.chrome.driver",driverpath);
 	    driver= new ChromeDriver();
+	    System.out.println("hello");
 	}
 
 }
